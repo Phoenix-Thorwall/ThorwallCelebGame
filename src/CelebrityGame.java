@@ -119,4 +119,8 @@ public class CelebrityGame {
 	public String sendClue() {
 		return gameCelebrity.getClue();
 	}
+
+	public void reset() {
+		gameWindow.dispose();
+	}
 }
